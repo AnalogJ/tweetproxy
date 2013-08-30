@@ -1,0 +1,16 @@
+{
+  "name": "node-twitter-proxy",
+  "author": "Dave Ward",
+  "version": "0.6.0",
+  "keywords": [
+    "twitter",
+    "oAuth"
+  ],
+  "description": "A proxy to oAuth with Twitter, get your latest tweets, and make them available via JSONP and CORS.",
+  "dependencies": {
+    "nconf": ">= 0.0.1",
+    "ntwitter": "git://github.com/crscastillo/ntwitter.git#master",
+    "memory-cache": "0.0.5",
+    "express": "~3.3.7"
+  }
+}
